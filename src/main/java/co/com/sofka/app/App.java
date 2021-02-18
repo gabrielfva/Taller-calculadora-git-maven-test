@@ -31,9 +31,9 @@ public class App {
 
         BasicCalculator calculator = new BasicCalculator();
         Long resultS = calculator.sum( number1, number2 );
-        Long resultR = calculator.sum( number1, number2 );
-        Long resultM = calculator.sum( number1, number2 );
-        Long resultD = calculator.sum( number1, number2 );
+        Long resultR = calculator.sub( number1, number2 );
+        Long resultM = calculator.mul( number1, number2 );
+        Long resultD = calculator.div( number1, number2 );
 
         System.out.println( number1 + " + " + number2 + " = " + resultS );
         System.out.println( number1 + " - " + number2 + " = " + resultR );
